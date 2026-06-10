@@ -1,0 +1,23 @@
+# Node
+node_modules/
+build/
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs / screenshots
+*.log
+screenshots/
+
+
+
+Readme.md
