@@ -43,7 +43,7 @@
 ---
 
 ## Stage 1 — Priority Inbox (Python CLI)
-
+![alt text](image-5.png)
 ### Prerequisites
 - Python 3.9+
 - `pip`
@@ -81,6 +81,8 @@ A **fixed-capacity min-heap** (size = N) ensures new notifications are ranked in
 ---
 
 ## Stage 2 — React Frontend
+### DashBoard
+![alt text](image-6.png)
 
 ### Prerequisites
 - Node.js 18+
@@ -119,6 +121,9 @@ npm start
 | Error Handling | User-friendly error banner with retry |
 
 ### Logging
+### Logs on PostMan
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 All API calls and user interactions are traced through the frontend **Logging Middleware** (`src/utils/logger.js`). Open browser DevTools → Console to see structured, colour-coded log output. No bare `console.*` calls are used in application code.
 
