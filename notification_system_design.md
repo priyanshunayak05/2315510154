@@ -50,6 +50,8 @@ Heap root = lowest-scoring notification in the top-N "window"
 For typical values of N (10–20) this is effectively O(1) in practice.
 
 ---
+### UI dashboard
+![alt text](image-2.png)
 
 ### Handling New Notifications Efficiently
 
@@ -76,6 +78,9 @@ A `set[str]` of notification IDs is maintained alongside the heap. Before any in
 All operations (fetch, parse, push, evict, mark-viewed) are instrumented through the custom **Logging Middleware** (`logger.py`). Console / built-in loggers are not used directly. The `@log_call` decorator automatically traces function entry, exit, and any exception for every key function.
 
 ---
+### Logs on PostMan
+![alt text](image-3.png)
+![alt text](image-4.png)
 
 ### How to Run
 
